@@ -1,0 +1,5 @@
+<?php
+
+for( $i = 0; $i<5; $i++) { // runs a loop 5 times
+	echo "Hello, World!"; // executes statement 5 times
+}

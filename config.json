@@ -2,65 +2,111 @@
   "languages": [
     "C",
     "C++",
+    "C Sharp",
+    "Coffeescript",
     "Go",
+    "Haskell",
     "Java",
     "Javascript",
-    "Python",
+    "Kotlin",
+    "Lua",
     "PHP",
-    "Swift"
+    "Python",
+    "Ruby",
+    "Rust",
+    "Swift",
+    "Typescript",
+    "VB.Net"
   ],
-  "instructions": [
-    {
+  "instructions": [{
       "name": "Hello World",
       "description": "Classic example of programming: Print the text \"Hello World\"",
       "filename": "hello-world",
       "languages": [
         "C",
         "C++",
+        "C Sharp",
+        "Coffeescript",
+        "Go",
+        "Haskell",
         "Java",
         "Javascript",
+        "Kotlin",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Rust",
+        "Swift",
+        "Typescript",
+        "VB.Net"
+      ]
+    },
+    {
+      "name": "Methods/Functions",
+      "description": "Declaration of methods with parameters.",
+      "filename": "methods",
+      "languages": [
+        "C",
+        "C++",
+        "C Sharp",
+        "Coffeescript",
+        "Go",
+        "Haskell",
+        "Java",
+        "Javascript",
+        "Kotlin",
+        "Lua",
         "Python",
         "PHP",
+        "Ruby",
+        "Rust",
         "Swift",
-        "Go"
+        "Typescript"
       ]
-     },
-     {
-       "name": "Methods/Functions",
-       "description": "Declaration of methods with parameters.",
-       "filename": "methods",
-       "languages": [
-         "C++",
-         "Java",
-         "Javascript",
-         "Python"
-       ]
-     },
-     {
+    },
+    {
       "name": "Primitive data types",
       "description": "Declaration of the main data types",
       "filename": "data-types",
       "languages": [
+        "C",
         "C++",
+        "C Sharp",
+        "Coffeescript",
+        "Go",
         "Java",
         "Javascript",
+        "Kotlin",
+        "Lua",
+        "PHP",
+        "Rust",
         "Swift",
-        "PHP"
+        "Typescript"
       ]
-     },
-     {
+    },
+    {
       "name": "Arrays",
       "description": "Data Collections",
       "filename": "arrays",
       "languages": [
+        "C",
         "C++",
+        "C Sharp",
+        "Coffeescript",
+        "Go",
+        "Haskell",
         "Java",
         "Javascript",
+        "PHP",
         "Python",
-        "PHP"
+        "Ruby",
+        "Rust",
+        "Swift",
+        "Typescript",
+        "VB.Net"
       ]
-     },
-     {
+    },
+    {
       "name": "Input/Output",
       "description": "Reading and writing from the standard input/output",
       "filename": "input-output",
@@ -68,40 +114,90 @@
         "C",
         "C++",
         "Java",
+        "Kotlin",
+        "Lua",
+        "PHP",
         "Python",
-        "PHP"
+        "Ruby",
+        "Rust",
+        "VB.Net"
       ]
-     },
-     {
+    },
+    {
       "name": "For Loop",
       "description": "Execute a block of code a number of times",
       "filename": "for-loop",
       "languages": [
-        "Javascript"
+        "C",
+        "C Sharp",
+        "Coffeescript",
+        "Javascript",
+        "Lua",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Rust",
+        "Swift",
+        "Go",
+        "Typescript",
+        "VB.Net"
       ]
-     },
-     {
+    },
+    {
+      "name": "For-Each loop",
+      "description": "Iterate over a collection, running the loop once for each item",
+      "filename": "for-each-loop",
+      "languages": [
+        "C++",
+        "C Sharp",
+        "Coffeescript",
+        "Java",
+        "Javascript",
+        "PHP",
+        "Ruby",
+        "Rust",
+        "Go",
+        "Typescript",
+        "VB.Net"
+      ]
+    },
+    {
       "name": "Strings",
       "description": "String operations",
       "filename": "strings",
       "languages": [
+        "C",
+        "C++",
+        "C Sharp",
+        "Coffeescript",
         "Java",
-        "Javascript"
+        "Javascript",
+        "Lua",
+        "PHP",
+        "Python",
+        "Rust",
+        "Swift",
+        "Typescript"
       ]
-     },
-     {
+    },
+    {
       "name": "Vectors",
       "description": "Sequence container that encapsulates dynamic size arrays",
       "filename": "vector",
       "languages": [
         "C++",
+        "C Sharp",
+        "Coffeescript",
         "Java",
         "Javascript",
+        "PHP",
         "Python",
-        "PHP"
+        "Ruby",
+        "Rust",
+        "Typescript"
       ]
-     },
-     {
+    },
+    {
       "name": "Treeset",
       "description": "Orderly collection without duplicate elements",
       "filename": "treeset",
@@ -109,15 +205,83 @@
         "C++",
         "Java"
       ]
-     },
-     {
-      "name": "For-Each loop",
-      "description": "Iterate over a collection, running the loop once for each item",
-      "filename": "for-each-loop",
+    },
+    {
+      "name": "Queue",
+      "description": "A collection of elements that are inserted and removed according to the first-in first-out (FIFO) principle",
+      "filename": "queue",
+      "languages": [
+        "C++",
+        "Java"
+      ]
+    },
+    {
+      "name": "Stack",
+      "description": "A collection of elements that are inserted and removed according to the last-in first-out (LIFO) principle",
+      "filename": "stack",
+      "languages": [
+        "C++",
+        "Java"
+      ]
+    },
+    {
+      "name": "Priority Queue",
+      "description": "A queue where the elements are ordered",
+      "filename": "priority-queue",
+      "languages": [
+        "C++",
+        "Java"
+      ]
+    },
+    {
+      "name": "Treemap",
+      "description": "Orderly collection of Key - Value pairs without duplicate keys",
+      "filename": "treemap",
+      "languages": [
+        "C++",
+        "Java"
+      ]
+    },
+    {
+      "name": "Concatenation",
+      "description": "Join two strings",
+      "filename": "concatenation",
+      "languages": [
+        "Coffeescript",
+        "Javascript",
+        "Kotlin",
+        "Python",
+        "Ruby",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "Add",
+      "description": "Add two numbers",
+      "filename": "add",
+      "languages": [
+        "Coffeescript",
+        "Javascript",
+        "Kotlin",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "Random",
+      "description": "Get a random number",
+      "filename": "random",
       "languages": [
         "Java",
-	"Javascript"
+        "Go"
       ]
-     }
+    },
+    {
+      "name": "Union Types",
+      "description": "Types that represent the union of multiple other types. A variable of such type can contain a value of any of the components of the union",
+      "filename": "union-types",
+      "languages": [
+        "Typescript"
+      ]
+    }
   ]
 }
